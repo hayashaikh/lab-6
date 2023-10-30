@@ -4,7 +4,7 @@ password = ""
 a = ""
 b = ""
 def encode(password):
-# encodes password
+# encodes password of 8 digit length containing only integers
     encoded = ""
     if len(password) == 8:
         for i in password:
@@ -23,4 +23,5 @@ while password:
         b = decode(a)
         print(f"The encoded password is {a}, and the original password is {b}.")
     if option == 3:
+        # ends the program
         break
