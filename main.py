@@ -4,6 +4,7 @@ password = ""
 a = ""
 b = ""
 def encode(password):
+# encodes password
     encoded = ""
     if len(password) == 8:
         for i in password:
