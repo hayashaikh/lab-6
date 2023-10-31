@@ -1,4 +1,4 @@
-
+# added comment to code repository - Kassa
 encoded_passwords={} #Added
 password = ""
 a = ""
@@ -36,8 +36,8 @@ while password:
     elif option == 2:
         a = input("Please enter the encoded password: ")
         if a in encoded_passwords:
-            originalpass = encoded_passwords[a]
-            print(f"The encoded password is {a}, and the original password is {originalpass}.")
+            originalPass = encoded_passwords[a]
+            print(f"The encoded password is {a}, and the original password is {originalPass}.")
         else:
             print("Password not found")
     elif option == 3:
